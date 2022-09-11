@@ -17,8 +17,8 @@
 # or added to environment variables using other methods.
 #########################################################################
 
-#TELEGRAM_TOKEN=<your telegram token>     Еnter without quotes!!!
-#TELEGRAM_CHATID=<your telegram chatid>   Еnter without quotes!!!
+TELEGRAM_TOKEN=@TELEGRAM_TOKEN
+TELEGRAM_CHATID=@TELEGRAM_CHATID
 TELEGRAM_URL="https://api.telegram.org/bot$TELEGRAM_TOKEN/sendMessage"
 
 function getFriendlyFileSize() {
